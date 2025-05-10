@@ -5,6 +5,7 @@
   padding: 0 30px;
   max-width: 100%;
   font-family: 'Helvetica';
+  border-bottom: 1px solid rgba(0, 0, 0, 0.116);
 }
 .header__menu {
   display: flex;
@@ -47,7 +48,7 @@
   --border-color: transparent;
   color: #ffffff;
   background-color: #4262FF;
-  border-radius: 24px;
+  border-radius: 30px;
   text-decoration: none;
   border: 1px solid var(--border-color);
   font-size: 16px;
@@ -61,6 +62,85 @@
 .button--outline {
   --border-color: blue;
   background: transparent;
+}
+.button:hover {
+  opacity: 50%;
+  transition: 0.3s all;
+}
+.intro {
+  display: flex;
+  justify-content: space-around;
+  margin: 60px 160px 0;
+  gap: 40px;
+}
+.image-wrapper__image {
+  margin: 0 30px;
+}
+.sign {
+  font-family: 'Helvetica';
+}
+.sign__header {
+  font-size: 48px;
+  font-weight: 600;
+  padding-bottom: 16px;
+  line-height: 56px;
+  letter-spacing: -0.1px;
+}
+.sign__description {
+  font-size: 18px;
+  line-height: 24px;
+  margin-bottom: 30px;
+}
+.sign__input {
+  box-sizing: border-box;
+  max-width: 100%;
+  width: 100%;
+  font-size: 19px;
+  padding: 11.5px 0 14.5px 22px;
+  border-radius: 30px;
+  margin-bottom: 10px;
+  border: 1px solid #000000;
+}
+.sign__button {
+  font-size: 18px;
+  padding: 12px 0 17px;
+  max-width: 100%;
+  width: 100%;
+  margin-bottom: 8px;
+}
+.sign__inscription {
+  font-size: 14px;
+  opacity: 50%;
+  margin-bottom: 45px;
+}
+.sign__reviews-sponsors {
+  display: flex;
+  padding: 14px;
+  border-radius: 5px;
+  background-color: #f5f5f7;
+}
+.reviews {
+  font-family: 'Helvetica';
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+.reviews__stars {
+  display: flex;
+  gap: 6px;
+}
+.reviews__text {
+  font-size: 11px;
+}
+.sponsors {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 0 14px;
+  width: 185px;
+}
+.sponsors__image {
+  object-fit: cover;
 }
 @font-face {
   font-family: Helvetica;
