@@ -69,12 +69,13 @@
 }
 .intro {
   display: flex;
-  justify-content: space-around;
-  margin: 60px 160px 0;
+  justify-content: center;
+  max-width: 1120px;
+  margin: 60px auto 0;
   gap: 40px;
 }
 .image-wrapper__image {
-  margin: 0 30px;
+  padding: 0 30px;
 }
 .sign {
   font-family: 'Helvetica';
@@ -108,12 +109,12 @@
   width: 100%;
   margin-bottom: 8px;
 }
-.sign__inscription {
+.sign__label {
   font-size: 14px;
   opacity: 50%;
   margin-bottom: 45px;
 }
-.sign__reviews-sponsors {
+.sign__footer {
   display: flex;
   padding: 14px;
   border-radius: 5px;
@@ -139,8 +140,8 @@
   padding: 0 14px;
   width: 185px;
 }
-.sponsors__image {
-  object-fit: cover;
+.image-wrapper {
+  padding: 0 30px;
 }
 @font-face {
   font-family: Helvetica;

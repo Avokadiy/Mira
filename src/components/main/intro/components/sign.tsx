@@ -1,10 +1,10 @@
-import arrowRight from '../../../assets/icons/rightThinArrow.svg'
-import fullStar from '../../../assets/icons/fullStar.svg'
-import halfStar from '../../../assets/icons/halfStar.svg'
-import g2Icon from '../../../assets/icons/g2Icon.svg'
-import getAppIcon from '../../../assets/icons/getAppIcon.svg'
-import capterraIcon from '../../../assets/icons/capterraIcon.svg'
-import Icon from './icon';
+import arrowRight from '../../../../assets/icons/rightThinArrow.svg'
+import fullStar from '../../../../assets/icons/fullStar.svg'
+import halfStar from '../../../../assets/icons/halfStar.svg'
+import g2Icon from '../../../../assets/icons/g2Icon.svg'
+import getAppIcon from '../../../../assets/icons/getAppIcon.svg'
+import capterraIcon from '../../../../assets/icons/capterraIcon.svg'
+import Icon from '../../components/icon';
 
 function Sign() {
     return (
@@ -14,12 +14,12 @@ function Sign() {
             <input className='sign__input' type="text" placeholder="Enter your work email" />
             <button className="sign__button button">
                 <span>Sign up free</span>
-                <img src={arrowRight} alt="" />
+                <Icon img={arrowRight} />
             </button>
-            <div className='sign__inscription'>
+            <div className='sign__label'>
                 <span>Collaborate with your team within minutes</span>
             </div>
-            <div className='sign__reviews-sponsors'>
+            <div className='sign__footer'>
                 <div className='reviews'>
                     <div className='reviews__stars'>
                         <Icon img={fullStar} />
@@ -33,9 +33,9 @@ function Sign() {
                     </div>
                 </div>
                 <div className='sponsors'>
-                    <img className='sponsors__image' src={g2Icon} alt="G2" />
-                    <img className='sponsors__image' src={getAppIcon} alt="getApp" />
-                    <img className='sponsors__image' src={capterraIcon} alt="Capterra" />
+                    <Icon img={g2Icon} alt='G2' />
+                    <Icon img={getAppIcon} alt='getApp' />
+                    <Icon img={capterraIcon} alt='Capterra' />
                 </div>
             </div>
         </div>

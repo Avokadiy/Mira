@@ -1,7 +1,7 @@
-function icon(props: { img: string | undefined; }) {
+function Icon(props: { img: string | undefined; alt?: string }) {
     return (
-        <img src={props.img} alt="" />
+        <img src={props.img} alt={props.alt} />
      );
 }
 
-export default icon;
+export default Icon;
