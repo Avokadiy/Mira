@@ -6,7 +6,7 @@ function Intro() {
     return (
         <div className="intro">
             <Sign />
-            <ImageWrapper img={IntroImage} alt={'Изображение с показом работы сайта'} />
+            <span className="intro__right"><ImageWrapper img={IntroImage} alt='Изображение с показом работы сайта' /></span>
         </div>
     );
 }

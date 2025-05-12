@@ -1,3 +1,33 @@
+@font-face {
+  font-family: Helvetica;
+  src: 'Helvetica';
+}
+.button {
+  --border-color: transparent;
+  color: #ffffff;
+  background-color: #4262FF;
+  border-radius: 30px;
+  text-decoration: none;
+  border: 1px solid var(--border-color);
+  font-size: 16px;
+  padding: 17px 22px;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  align-items: center;
+}
+.button--outline {
+  --border-color: blue;
+  background: transparent;
+}
+.button:hover {
+  opacity: 50%;
+  transition: 0.3s all;
+}
+.image-wrapper {
+  object-fit: contain;
+}
 .header {
   display: flex;
   justify-content: space-between;
@@ -44,41 +74,26 @@
   height: 24px;
   width: 24px;
 }
-.button {
-  --border-color: transparent;
-  color: #ffffff;
-  background-color: #4262FF;
-  border-radius: 30px;
-  text-decoration: none;
-  border: 1px solid var(--border-color);
-  font-size: 16px;
-  padding: 17px 22px;
-  box-sizing: border-box;
-  display: flex;
-  justify-content: center;
-  gap: 8px;
-  align-items: center;
-}
-.button--outline {
-  --border-color: blue;
-  background: transparent;
-}
-.button:hover {
-  opacity: 50%;
-  transition: 0.3s all;
-}
 .intro {
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
   max-width: 1120px;
-  margin: 60px auto 0;
+  margin: auto;
+  padding: 60px 0;
   gap: 40px;
 }
-.image-wrapper__image {
-  padding: 0 30px;
+.intro__right {
+  padding: 0 29px;
+}
+@media (max-width: 1118px) {
+  .intro {
+    justify-content: center;
+  }
 }
 .sign {
   font-family: 'Helvetica';
+  max-width: 440px;
 }
 .sign__header {
   font-size: 48px;
@@ -140,10 +155,22 @@
   padding: 0 14px;
   width: 185px;
 }
-.image-wrapper {
-  padding: 0 30px;
+.partners {
+  max-width: 1120px;
+  margin: auto;
+  padding: 64px 0;
+  font-family: 'Helvetica';
 }
-@font-face {
-  font-family: Helvetica;
-  src: 'Helvetica';
+.partners__header {
+  text-align: center;
+}
+.partners__header-text {
+  font-size: 19.4px;
+  line-height: 24px;
+  opacity: 50%;
+}
+.partners__list {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 48px;
 }

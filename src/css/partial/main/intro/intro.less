@@ -2,8 +2,20 @@
 
 .intro {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
     max-width: 1120px;
-    margin: 60px auto 0;
+    margin: auto;
+    padding: 60px 0;
     gap: 40px;
+
+    &__right {
+        padding: 0 29px;
+    }
+}
+
+@media (max-width: 1118px) {
+    .intro {
+        justify-content: center;
+    }
 }
