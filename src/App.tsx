@@ -5,6 +5,7 @@ import Intro from './components/main/intro/intro'
 import Partners from './components/main/partners/partners'
 import Advatages from './components/main/advantages/advantages'
 import Accessibility from './components/main/accessibility/accessibility'
+import Integration from './components/main/integration/integration'
 
 function App() {
 
@@ -15,6 +16,7 @@ function App() {
       <Partners />
       <Advatages />
       <Accessibility />
+      <Integration />
     </>
   )
 }

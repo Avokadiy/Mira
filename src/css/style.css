@@ -272,3 +272,37 @@
   line-height: 24px;
   margin-top: 40px;
 }
+.integration {
+  display: flex;
+  justify-content: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding-top: 15px;
+  flex-wrap: wrap;
+  font-family: 'Inter';
+  gap: 104px;
+}
+.integration__content {
+  box-sizing: border-box;
+  padding: 77px 10px;
+  max-width: 467px;
+}
+.integration__header {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0.6px;
+}
+.integration__text {
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 28px;
+  letter-spacing: 0.2px;
+}
+.integration__link {
+  display: flex;
+  gap: 18px;
+  font-size: 18px;
+  line-height: 24px;
+  margin-top: 53px;
+}
