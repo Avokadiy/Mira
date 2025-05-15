@@ -4,6 +4,7 @@ import Header from './components/header/header'
 import Intro from './components/main/intro/intro'
 import Partners from './components/main/partners/partners'
 import Advatages from './components/main/advantages/advantages'
+import Accessibility from './components/main/accessibility/accessibility'
 
 function App() {
 
@@ -13,6 +14,7 @@ function App() {
       <Intro />
       <Partners />
       <Advatages />
+      <Accessibility />
     </>
   )
 }
