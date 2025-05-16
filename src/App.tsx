@@ -6,6 +6,7 @@ import Partners from './components/main/partners/partners'
 import Advatages from './components/main/advantages/advantages'
 import Accessibility from './components/main/accessibility/accessibility'
 import Integration from './components/main/integration/integration'
+import Report from './components/main/report/report'
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
       <Advatages />
       <Accessibility />
       <Integration />
+      <Report />
     </>
   )
 }
