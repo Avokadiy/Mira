@@ -1,3 +1,4 @@
+@import "../../node_modules/swiper/swiper.css";
 .button {
   --border-color: transparent;
   color: #ffffff;
@@ -347,4 +348,73 @@
   max-width: 168px;
   max-height: 40px;
   margin-top: 21px;
+}
+.features {
+  max-width: 1060px;
+  margin: 0 auto;
+  font-family: 'Inter';
+  padding: 32px 30px;
+}
+.features__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 56px;
+  letter-spacing: 0.4px;
+}
+.features__swiper {
+  margin-top: 32px;
+}
+.features__button {
+  background-color: white;
+  border: none;
+  width: max-content;
+  letter-spacing: 0.4px;
+}
+.features__main {
+  padding: 1px;
+}
+.swiper {
+  font-family: Inter;
+}
+.swiper-slide {
+  font-size: 14px;
+  line-height: 20px;
+  padding: 13px 30px 15px 11px;
+  max-width: fit-content;
+  border: 1px solid #f2f2f2;
+  border-radius: 24px;
+}
+.featuresMain {
+  font-family: 'Inter';
+  max-width: 100%;
+  margin: 26px auto;
+  display: flex;
+}
+.featuresMain__info {
+  padding: 28px 41px 0 16px;
+}
+.featuresMain__info-title {
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0;
+}
+.featuresMain__info-text {
+  margin-top: 37px;
+  font-size: 17px;
+  line-height: 24px;
+  letter-spacing: 0;
+  color: #504d74;
+  font-weight: 500;
+}
+.featuresMain__info-link {
+  display: block;
+  margin-top: 47px;
+  font-size: 18px;
+  text-decoration: none;
+  display: flex;
+  gap: 5px;
+}
+.featuresMain__image {
+  max-width: 700px;
+  max-height: 517px;
 }

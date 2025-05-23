@@ -2,7 +2,7 @@ import logo from '../../assets/images/logo.svg'
 import arrowDown from '../../assets/icons/arrowDown.svg'
 import worldIcon from '../../assets/icons/worldIcon.svg'
 import rightThinArrow from '../../assets/icons/rightThinArrow.svg'
-import Icon from './Icon'
+import Icon from '../main/components/icon'
 
 function Header() {
     return (

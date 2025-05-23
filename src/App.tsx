@@ -7,6 +7,7 @@ import Advatages from './components/main/advantages/advantages'
 import Accessibility from './components/main/accessibility/accessibility'
 import Integration from './components/main/integration/integration'
 import Report from './components/main/report/report'
+import Features from './components/main/features/features'
 
 function App() {
 
@@ -19,6 +20,7 @@ function App() {
       <Accessibility />
       <Integration />
       <Report />
+      <Features />
     </>
   )
 }
